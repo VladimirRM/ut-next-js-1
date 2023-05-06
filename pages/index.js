@@ -3,16 +3,18 @@ import Link from "next/link";
 const Index = () => {
     return (
         <div>
-            <div>
+            <div className="navbar">
                 <Link href="/">
-                <a >Главная страница</a>
+                <>Главная</>
                 </Link>
                 <Link href="/users">
-                <a >Users</a>
-
+                <>Пользователи</>
                 </Link>
-            </div>
+                  </div>
             <h1>Main page</h1>
+            <style>
+       
+            </style>
         </div>
     );
 };
