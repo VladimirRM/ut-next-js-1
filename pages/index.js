@@ -1,16 +1,11 @@
-import Link from "next/link";
-
+import A from "../components/A"
 const Index = () => {
     return (
         <div>
             <div className="navbar">
-                <Link href="/">
-                <>Главная</>
-                </Link>
-                <Link href="/users">
-                <>Пользователи</>
-                </Link>
-                  </div>
+                <A href={'/'} text="Главная"/>
+                <A href={'/users'} text="Пользователи"/>
+           </div>
             <h1>Main page</h1>
             <style>
        
