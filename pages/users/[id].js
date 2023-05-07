@@ -1,10 +1,12 @@
 import Router, { useRouter } from "next/router"
 export default function(){
-   const router = useRouter()
+   const {query} = useRouter()
 
     return(
         <div>
-            Пользователь
+           <h1>
+           Пользователь с id {query.id}
+            </h1> 
         </div>
     )
 }
