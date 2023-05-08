@@ -1,6 +1,11 @@
+import Head from "next/head";
 import A from "../components/A"
 const Index = () => {
     return (
+        <>
+        <Head>
+            <meta keywords="Ulby tv nextjs"></meta>
+        </Head>
         <div>
             <div className="navbar">
                 <A href={'/'} text="Главная"/>
@@ -11,6 +16,7 @@ const Index = () => {
        
             </style>
         </div>
+        </>
     );
 };
 
