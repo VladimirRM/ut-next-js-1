@@ -3,11 +3,7 @@ import A from "../components/A"
 const Index = () => {
     return (
         <>
-        <Head>
-            <meta keywords="Ulby tv nextjs"></meta>
-        <title>Главная страница</title>
-
-        </Head>
+       
         <div>
             <div className="navbar">
                 <A href={'/'} text="Главная"/>
