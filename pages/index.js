@@ -5,6 +5,8 @@ const Index = () => {
         <>
         <Head>
             <meta keywords="Ulby tv nextjs"></meta>
+        <title>Главная страница</title>
+
         </Head>
         <div>
             <div className="navbar">
